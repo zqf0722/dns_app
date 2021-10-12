@@ -11,4 +11,4 @@ Simplified authoritative server for a network of applications
 9. US returns the result to user.
 
 When you test the program, make sure you change the ip and the as_ip and the url in FS registration function to your own.
-
+Make sure to first start running FS and AS before running US, because I set an automatic DNS registration for FS hostname. If you want to register for another DNS, use the registration.py under US folder, and run it again.
