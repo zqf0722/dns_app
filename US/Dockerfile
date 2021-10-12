@@ -22,6 +22,6 @@ USER nyu
 
 COPY --chown=nyu:nyu . .
 
-CMD [ "python", "./registration.py" ]
+CMD [ "python", "./registration.py" ] # if you don't want to automatically register, just delete this line.
 CMD [ "python", "./US.py" ]
 
